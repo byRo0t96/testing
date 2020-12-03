@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+/*s*/
+/*noselect*/
+*{
+  -webkit-touch-callout:none;/*iOS Safari*/
+    -webkit-user-select:none;/*Safari*/
+     -khtml-user-select:none;/*Konqueror HTML*/
+       -moz-user-select:none;/*Old versions of Firefox*/
+        -ms-user-select:none;/*Internet Explorer/Edge*/
+            user-select:none;/*Non-prefixed version, currently supported by Chrome, Opera and Firefox*/
+}
+
+/**/
+*{-webkit-tap-highlight-color:transparent;}
+
+/**/
+*:focus{outline:none;}
+
+/**/
+input:focus{
+	outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+/*e*/
+
+</style>
+</head>
+<body>
+
+
+<p>By default, you'll see no outline. But press TAB key and you'll see focussed element</p>
+<button>This is a button</button>
+<a href="#">This is anchor link</a>
+<input type="checkbox" />
+<textarea>textarea</textarea>
+<select>
+</select>
+
+</body>
+</html>
